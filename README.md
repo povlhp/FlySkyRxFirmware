@@ -9,6 +9,9 @@ This procedure will allow you to install new firmware on most FlySky Receivers. 
 
 The FS-i10 can update some/all receivers (?) over the air. But I do not have the FS-i10.
 
+If you want to support me, please click this affiliate link when going to shop at Banggood - It is free for you, but I will get some money from banggood: 
+https://www.banggood.com/?p=9O2015638249201406IM
+
 ## Firmware releases
 * iA6B: Version 1.6 - Firmware with 8 channel PPM output (first had 6 channels only)
 * iA6C: Version x.x - Just a dump from a Turnigy iA6C receiver
