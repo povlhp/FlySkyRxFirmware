@@ -26,25 +26,28 @@ http://www.st.com/content/st_com/en/products/embedded-software/development-tool-
 
 Connect the iA6B to the ST-Link:
 - connect a gnd pin of the receiver to gnd on the ST-Link. Power the RX with 5V - You can use the 5V from the ST-Link, or another source.
-- solder wires to CLK & DAT pads inside the RX then connect them to the ST-Link SWCLK & SWDIO pins. Some people prefers to press pins to the pads instead of soldering. It takes a bit of practice, but should be safe since the bootloader is in ROM, and is not overwritten.
+- solder wires to CLK & DAT pads inside the RX then connect them to the ST-Link SWCLK & SWDIO pins. Some people prefers to press pins to the pads instead of soldering. It takes a bit of practice, but should be safe since the bootloader is in ROM, and is not overwritten. x
 
-<IMG SRC="x6b.png" width="300px">
+X6B: <IMG SRC="graphics/x6b.png" width="300px">
+
+iA6B: <IMG SRC="graphics/iA6B.jpg" width="300px">
 
 
 ### Making a backup
 * Launch ST-Link Utility
 * Set the Address field to 0x08000000 and Size to 0x8000
 * Click Connect to the target
-* Click Save () to keep a backup of your firmware, just in case ...
+* Click Save (![icon](graphics/Save.png)) to keep a backup of your firmware, just in case ...
 
 ### Flashing new firmware
 
 * Download the firmware from https://github.com/povlhp/FlySkyRxFirmware
 optional: open it in an hex editor then change the 4 bytes at offset 0x1C00 (12 34 56 78) to change RX ID, I think you can use any arbitrary values, just avoid using FF FF FF FF. If you do not do this, your receivers might have same ID; and be bound at same time.
 I recommend using the ID from the old firmware.
-* Click open () then select the new firmware file
-* Click Program Verify (), check that start address and file path are correct, then click start. I had to select verify after programming.
-* Click Disconnect ()
+* Click open (
+![icon](graphics/iconConnect.png)) then select the new firmware file
+* Click Program Verify (![icon](graphics/iconWrite.png)), check that start address and file path are correct, then click start. I had to select verify after programming.
+* Click Disconnect (![icon](graphics/iconDisconnect.png))
 
 ### Verify
 Rebind the RX to Deviation
