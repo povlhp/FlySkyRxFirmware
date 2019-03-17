@@ -15,7 +15,11 @@ https://www.banggood.com/?p=9O2015638249201406IM
 ## Firmware releases
 * iA6B: Version 1.6 - Firmware with 8 channel PPM output (first had 6 channels only)
 * iA6C: Version x.x - Just a dump from a Turnigy iA6C receiver
-* B: Version x.x - This is a firmware confirmed working with failsafe on iBus (BetaFlight/iNav). There have been some reports on receivers which just did channel hold on iBus/PPM, and only working failsafe on PWM. If you have one of these defective receivers, you should update.
+* X6B: Version x.x - This is a firmware confirmed working with failsafe on iBus (BetaFlight/iNav). There have been some reports on receivers which just did channel hold on iBus/PPM, and only working failsafe on PWM. If you have one of these defective receivers, you should update.
+* iA8X
+* X8B
+* A8S: Version 2
+* 8A: Version 2 (probably A8S clone)
 
 ## Instructions
 Download and install ST-Link driver:
@@ -26,11 +30,21 @@ http://www.st.com/content/st_com/en/products/embedded-software/development-tool-
 
 Connect the iA6B to the ST-Link:
 - connect a gnd pin of the receiver to gnd on the ST-Link. Power the RX with 5V - You can use the 5V from the ST-Link, or another source.
-- solder wires to CLK & DAT pads inside the RX then connect them to the ST-Link SWCLK & SWDIO pins. Some people prefers to press pins to the pads instead of soldering. It takes a bit of practice, but should be safe since the bootloader is in ROM, and is not overwritten. x
+- solder wires to CLK & DAT pads inside the RX then connect them to the ST-Link SWCLK & SWDIO pins. Some people prefers to press pins to the pads instead of soldering. It takes a bit of practice, but should be safe since the bootloader is in ROM, and is not overwritten.
 
 X6B: <IMG SRC="graphics/x6b.png" width="300px">
 
 iA6B: <IMG SRC="graphics/iA6B.jpg" width="300px">
+
+iA6C: <IMG SRC="graphics/ia6c.jpg" width="300px">
+
+iA8X: <IMG SRC="graphics/ia8x.jpg" width="300px">
+
+X8B: <IMG SRC="graphics/x8b.jpg" width="300px">
+
+A8S: <IMG SRC="graphics/a8s.jpg" width="300px">
+
+8A: <IMG SRC="graphics/8a.jpg" width="300px">
 
 
 ### Making a backup
