@@ -58,7 +58,7 @@ A8S: <IMG SRC="graphics/a8s.jpg" width="300px">
 
 ### Flashing new firmware
 
-* Download the firmware from https://github.com/povlhp/FlySkyRxFirmware
+* Download the firmware from https://github.com/povlhp/FlySkyRxFirmware (or to get RSSI on iBus channel 8 or 14 from  https://github.com/Cleric-K/FlySkyRxFirmwareRssiMod )
 optional: open it in an hex editor then change the 4 bytes at offset 0x1C00 (12 34 56 78) to change RX ID, I think you can use any arbitrary values, just avoid using FF FF FF FF. If you do not do this, your receivers might have same ID; and be bound at same time.
 I recommend using the ID from the old firmware.
 * Click open (
