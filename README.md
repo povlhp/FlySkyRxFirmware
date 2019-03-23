@@ -21,6 +21,9 @@ https://www.banggood.com/?p=9O2015638249201406IM
 * A8S: Version 2
 * 8A: Version 2 (probably A8S clone)
 
+If you want firmware with the true receiver RSSI on iBus channel 8 or 4, then please download the firmware from Clerics repository rather than mine.
+https://github.com/Cleric-K/FlySkyRxFirmwareRssiMod
+
 ## Instructions
 Download and install ST-Link driver:
 http://www.st.com/content/st_com/en/products/embedded-software/development-tool-software/stsw-link009.html#getsoftware-scroll
