@@ -32,7 +32,7 @@ Download ST-Link Utility:
 http://www.st.com/content/st_com/en/products/embedded-software/development-tool-software/stsw-link004.html#getsoftware-scroll
 
 Connect the iA6B to the ST-Link:
-- connect a gnd pin of the receiver to gnd on the ST-Link. Power the RX with 5V - You can use the 5V from the ST-Link, or another source.
+- connect a gnd pin of the receiver to gnd on the ST-Link. Power the RX with 5V - You can use the 5V from the ST-Link, or another source. Or you can power it directly with 3.3V on the 3.3V pad. 
 - solder wires to CLK & DAT pads inside the RX then connect them to the ST-Link SWCLK & SWDIO pins. Some people prefers to press pins to the pads instead of soldering. It takes a bit of practice, but should be safe since the bootloader is in ROM, and is not overwritten.
 
 X6B: <IMG SRC="graphics/x6b.png" width="300px">
