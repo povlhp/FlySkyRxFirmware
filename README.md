@@ -20,6 +20,8 @@ https://www.banggood.com/?p=9O2015638249201406IM
 * X8B
 * A8S: Version 2
 * 8A: Version 2 (probably A8S clone)
+* iA10B
+* X14S
 
 If you want firmware with the true receiver RSSI on iBus channel 8 or 4, then please download the firmware from Clerics repository rather than mine.
 https://github.com/Cleric-K/FlySkyRxFirmwareRssiMod
@@ -48,6 +50,10 @@ X8B: <IMG SRC="graphics/x8b.jpg" width="300px">
 A8S: <IMG SRC="graphics/a8s.jpg" width="300px">
 
 8A: <IMG SRC="graphics/8a.jpg" width="300px">
+
+iA10B: <IMG SRC="graphics/ia10b.jpg" width="300px">
+
+X14S: <IMG SRC="graphics/x14s.jpg" width="300px">
 
 
 ### Making a backup
